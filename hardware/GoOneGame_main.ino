@@ -69,8 +69,8 @@ void ResetMPU6050(float x, float y){
 
 void loop() {
   // JOYSTICK
-  XInput.setJoystickX(JOY_RIGHT, map(analogRead(JOY1_X), 0, 1023, -32767, 32767));
-  XInput.setJoystickY(JOY_RIGHT, map(analogRead(JOY1_Y), 0, 1023, 32767, -32767));
+  XInput.setJoystickY(JOY_RIGHT, map(analogRead(JOY1_X), 0, 1023, -32767, 32767)); // Modifier axes X/Y et mapping des valeurs pour adapter à l'orientation du joystick
+  XInput.setJoystickX(JOY_RIGHT, map(analogRead(JOY1_Y), 0, 1023, -32767, 32767));
 
   // BOUTONS
   XInput.setButton(BUTTON_A, digitalRead(BUTT_A));
