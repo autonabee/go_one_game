@@ -11,9 +11,17 @@ Go One Game est un projet de manette à une main. Ce repo contient les fichiers 
 
 ## V2
 Ce dossier contient les fichiers .stl du prototype v2 :
-- `baseV2.stl` : base arrondie avec trous pour vis de diamètre 2,5 mm. Espace pour poser l'Arduino, les résistances et le gyroscope.
-- `coqueV2.stl` : coque avec espace pour le joystick et les boutons.
+- `BaseV2.stl` : base arrondie avec trous pour vis de diamètre 2,5 mm. Espace pour poser l'Arduino, les résistances et le gyroscope.
+- `CoqueV2.stl` : coque avec espace pour le joystick et les boutons.
 La base et la coque ont un système d'attache par emboîtement de 3 cylindres, dans lesquels on peut visser (trous sous la base).
+
+## V3
+Ce dossier contient les fichiers .stl du prototype v3 :
+- `BaseV3.stl` : base arrondie avec trous pour vis de diamètre 2,5 mm. Espace pour poser l'Arduino, les résistances et le gyroscope.
+- `CoqueV3.stl` : coque avec espace pour le joystick et les boutons. 3 espaces pour des écrous de diamètre 2,5 mm.
+Améliorations par rapport à la v2 :
+- La manette v3 a un système de fermeture par vis et écrous plus efficace
+- La v3 est 10% plus grande pour permettre plus d'espace pour les composants
 
 # Dossier `hardware`
 
